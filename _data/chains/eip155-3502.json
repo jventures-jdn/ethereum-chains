@@ -1,0 +1,24 @@
+{
+  "name": "JFIN Chain Testnet",
+  "chain": "JFIN",
+  "rpc": ["https://rpc.testnet.jfinchain.com"],
+  "faucets": ["https://faucet.testnet.jfinchain.com"],
+  "icon": "jfin",
+  "features": [{ "name": "EIP155" }],
+  "nativeCurrency": {
+    "name": "JFIN Testnet",
+    "symbol": "JFIN",
+    "decimals": 18
+  },
+  "infoURL": "https://jfinchain.com",
+  "shortName": "JFIN Testnet",
+  "chainId": 3502,
+  "networkId": 3502,
+  "explorers": [
+    {
+      "name": "JFIN Chain Testnet Explorer",
+      "url": "https://testnet.jfinscan.com",
+      "standard": "EIP3091"
+    }
+  ]
+}
